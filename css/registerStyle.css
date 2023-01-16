@@ -1,0 +1,89 @@
+body {
+    background-color: #333;
+    color:aliceblue;
+}
+
+div.box {
+    width: 400px;
+    padding: 10px;
+    border: 5px solid #FAB005;
+    background-color: #F2F7F2;
+    border-radius: 10px;
+    height: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -200px;
+}
+
+h2{
+    color: #FAB005;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+fieldset {
+    border-radius: 10px;
+}
+
+label {
+    color: #FAB005;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+    margin: 5px;
+    border-radius: 5px;
+    width: 90%;
+    border: 2px solid #FAB005;
+    height: 30px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.2);
+    padding: 0 14px;
+}
+
+input:hover {
+    width: 90%;
+    border: 2px solid #ff9d00;
+}
+
+
+input:focus-visible {
+    border: 2px solid #ff9d00;
+}
+
+::placeholder {
+    font-size: 16px;
+}
+
+
+button {
+    background-color: #FAB005;
+    border: none;
+    border-radius: 5px;
+    color: #F2F7F2;
+    width: 45%;
+    height: 20%;
+    position:relative;
+    left: 20px;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.2);
+}
+
+button:hover {
+    background-color: #ff9d00;
+}
+
+
+a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(250, 197, 5);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff9d00;
+}

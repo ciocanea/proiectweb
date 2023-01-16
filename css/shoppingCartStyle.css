@@ -1,0 +1,110 @@
+body {
+    background-color: #333;
+    color:aliceblue;
+    padding-bottom: 500px;
+}
+
+
+h2{
+    color: #FAB005;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.box {
+    margin-bottom: 100px;
+    width: 90%;
+    padding: 10px;
+    background-color: rgb(39, 39, 39);
+    border-radius: 10px;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+
+div.register {
+    position: absolute;
+    top: 40px;
+    right: 240px;
+}
+
+div.login {
+    position: absolute;
+    top: 40px;
+    right: 157px;
+}
+
+div.listing {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+
+div.shoppingCart {
+    position: absolute;
+    top: 35px;
+    right: 350px;
+}
+
+
+button {
+    background-color: #FAB005;
+    border: none;
+    border-radius: 5px;
+    color: #F2F7F2;
+    width: 200px;
+    height: 70px;
+    position: relative;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+    top: 50%;
+    left: 50%;
+    margin-top: 180px;
+    margin-left: -90px;
+    
+}
+
+button:hover {
+    background-color: #ff9d00;
+}
+
+a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(250, 197, 5);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff9d00;
+}
+
+div.blackbox {
+    background-color: rgb(26, 25, 25);
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+
+.resize {
+        width: 150px;
+        height: 150px;
+    }
+
+.shoppingButton {
+    bottom: 40px;
+}
+
+h3 {
+    color: #FAB005;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    
+}

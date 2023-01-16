@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Ciocanea Calin">
+    <meta name="author" content="Chiriac Radu">
+    <meta name="description" content="E-commerce website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RCSell</title>
+    <link rel="icon" href="img/rclogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/itemStyle.css">
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html" title="RCSell home"><img src="img/rclogo.png" alt="RCSell logo" title="Back to home" width="50"></a></h1>   
+        
+        <div class="register"><a href="register.html">Register</a></div>
+        <div class="login"><a href="login.html">Login</a></div>
+        <div class="listing"><a href="listing.html">Add listing</a></div>
+        <div class="shoppingCart"><a href="shoppingCart.html"><img src="img/shopping-cart-2-xxl.png" alt="Shopping Cart Icon" width="25px"></a></div>
+    </header>
+    
+
+    <hr>
+
+    <main>
+        <div class="searchBox">
+            <details>
+                <summary>
+                    Filters
+                </summary>
+                
+                <br><br>
+
+                <form action="">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <fieldset>
+                                    <legend>Categories</legend>
+            
+                                    <p>
+                                        <input class="select" type="checkbox" name="category" id="book" value="book">
+                                        <label class="select" for="dog">Books</label>
+                                    </p>
+            
+                                    <p>
+                                        <input class="select" type="checkbox" name="category" id="boardgames" value="boardgames">
+                                        <label class="select" for="cat">Board Games</label>
+                                    </p>
+            
+                                    <p>
+                                        <input class="select" type="checkbox" name="category" id="decorations" value="decorations">
+                                        <label class="select" for="hamster">Decorations</label>
+                                    </p>
+            
+                                    <p>
+                                        <input class="select" type="checkbox" name="category" id="electronics" value="electronics">
+                                        <label class="select" for="other">Electronics</label>
+                                    </p>
+            
+                                    <p>
+                                        <input class="select" type="checkbox" name="category" id="movies" value="movies">
+                                        <label class="select" for="other">Movies</label>
+                                    </p>
+            
+                                    <p>
+                                        <input class="select" type="checkbox" name="category" id="toys" value="toys">
+                                        <label class="select" for="other">Toys</label>
+                                    </p>
+            
+                                    <p>
+                                        <input class="select"  type="checkbox" name="category" id="videogames" value="videogames">
+                                        <label class="select" for="other">Video Games</label>
+                                    </p>
+                                </fieldset>
+                            </td>
+
+                            <td>
+                                <fieldset>
+                                    <legend>Price range</legend>
+            
+            
+                                    <p>
+                                        <input class="select" type="radio" name="price" id="100" value="100">
+                                        <label class="select" for="price">&lt;100</label>
+                                    </p>
+            
+                                    <p>
+                                        <input class="select" type="radio" name="price" id="200" value="200">
+                                        <label class="select" for="price">&lt;200</label>
+                                    </p>
+
+                                    <p>
+                                        <input class="select" type="radio" name="price" id="300" value="300">
+                                        <label class="select" for="price">&lt;300</label>
+                                    </p>
+
+                                    <p>
+                                        <input class="select" type="radio" name="price" id="400" value="400">
+                                        <label class="select" for="price">&lt;400</label>
+                                    </p>
+
+                                    <p>
+                                        <input class="select" type="radio" name="price" id="500" value="500">
+                                        <label class="select" for="price">&lt;500</label>
+                                    </p>
+
+                                    <p>
+                                        <input class="select" type="radio" name="price" id="600" value="600">
+                                        <label class="select" for="price">&lt;600</label>
+                                    </p>
+
+                                    <p>
+                                        <input class="select" type="radio" name="price" id="1000" value="1000">
+                                        <label class="select" for="price">&gt;1000</label>
+                                    </p>
+                                </fieldset>
+                            </td>
+
+                            <td>
+                                <fieldset>
+                                    <legend>Ratings</legend>
+
+                                    <p>
+                                        <input class="select" type="radio" name="ratings" id="1star" value="1star">
+                                        <label class="select" for="ratings">1 Star</label>
+                                    </p>
+
+                                    <p>
+                                        <input class="select" type="radio" name="ratings" id="2star" value="2star">
+                                        <label class="select" for="ratings">2 Star</label>
+                                    </p>
+                                    
+                                    <p>
+                                        <input class="select" type="radio" name="ratings" id="3star" value="3star">
+                                        <label class="select" for="ratings">3 Star</label>
+                                    </p>
+                                    
+                                    <p>
+                                        <input class="select" type="radio" name="ratings" id="4star" value="4star">
+                                        <label class="select" for="ratings">4 Star</label>
+                                    </p>
+                                    
+                                    <p>
+                                        <input class="select" type="radio" name="ratings" id="5star" value="5star">
+                                        <label class="select" for="ratings">5 Star</label>
+                                    </p>
+                                </fieldset>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <br>
+                <button class="filterButton">Apply filters</button>
+                </form>
+
+            </details>
+        </div>
+        <br><br><br><br><br><br><br><br>
+        <hr>
+
+        <div class="flex-container">
+                <div class="box">
+                    <h3>&nbsp;&nbsp;&nbsp;&nbsp;Smartphone Apple iPhone 11, 64GB, Black</h3>
+                    <h2>Price: 499 Euro</h2>
+                    <p>Category: Electronics</p>
+                    <p>Operating System: iOS 14</p>
+                    <p>Memory capacity: 64 GB</p>
+                    <p>Camera specifications: 12 + 12 megapixel</p>
+                    
+                
+                    <p>Contact Seller: +40 751 522 741</p>
+        
+                    
+                    <img class="itemImg" src="img/iphone11.png"/>
+                    <button class="shoppingButton">Add To Shopping Cart</button>
+                </div>
+
+                <div class="box">
+                    <h3>IdeaPad 3i Gen 6 (15" Intel)</h3>
+                    <h2>Price: 549 Euro</h2>
+                    <p>&nbsp;&nbsp;Category: Electronics <br>
+                        &nbsp;&nbsp;Operating System: Windows<br>
+                        &nbsp;&nbsp;Memory capacity: 512 GB<br>
+                        &nbsp;&nbsp;CPU: Intel® Core ™ i7 11th Generation <br>
+                <br></p>
+                    <p>&nbsp;&nbsp;Contact Seller: +40 751 522 741 <br><br></p>
+            
+                    <div class="iPhone">
+                        <img class="itemImg" src="img/laptop.png">
+                        <button class="shoppingButton">Add To Shopping Cart</button>
+                    </div>  
+                </div>
+
+
+        </div>
+    </main>
+</body>
+</html>

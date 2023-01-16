@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Ciocanea Calin">
+    <meta name="author" content="Chiriac Radu">
+    <meta name="description" content="With this page, a user can add an item, which they want to sell, to the website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add listing</title>
+    <link rel="icon" href="img/rclogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/listingStyle.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html" title="RCSell home"><img src="img/rclogo.png" alt="RCSell logo" title="Back to home" width="50"></a></h1>   
+    </header>
+
+    <main>
+
+        <div class="box">
+            <h2><b>Add Listing</b></h2>
+
+            <form action="index.html">
+                <p>
+                    <label for="listingtitle"><b>&nbsp;Listing title</b></label>
+                    <br>
+                    <input type="text" name="listingtitle" id="listingtitle" placeholder="ex. Iphone 11 for sale" required autofocus>
+                </p>
+
+                <p>
+                    <label for="category"><b>&nbsp;Category</b></label>
+                    <br>
+                    <select name="category" id="category" required>
+                        <option value="books">
+                            Books
+                        </option>
+                        <option value="boardgames">
+                            Board games
+                        </option>
+                        <option value="decorations">
+                            Decorations
+                        </option>
+                        <option value="electronics">
+                            Electronics
+                        </option>
+                        <option value="movies">
+                            Movies
+                        </option>
+                        <option value="toys">
+                            Toys
+                        </option>
+                        <option value="videogames">
+                            Video games
+                        </option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="price"><b>&nbsp;Price (€)</b></label>
+                    <br>
+                    <input  class="price" type="number" name="price" id="price" placeholder="123" min="1" required>
+                </p>
+
+                <p>
+                    <label for="description"><b>&nbsp;Item Description</b></label>
+                    <br>
+                    <textarea name="description" id="description" cols="70" rows="8" placeholder="ex. unused, unopen, recently bought" required></textarea>
+                </p>
+
+                <p>
+                    <label for="phone"><b>&nbsp;Contact (phone number)</b></label>
+                    <br>
+                    <input class="contact" type="tel" name="phone" id="phone" placeholder="+31 6 12345678" pattern="[+]{1}[0-9]{2} [0-9]{1} [0-9]{8}" autocomplete="on" required>
+                </p>
+
+                <br><br>
+
+                <button type="submit" class="submit" action>Publish Listing</button>
+                <button type="reset" class="reset">Reset</button>
+            </form>
+
+        </div>
+    </main>
+</body>
+</html>

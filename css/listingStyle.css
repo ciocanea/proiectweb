@@ -1,0 +1,102 @@
+body {
+    background-color: #333;
+    color:aliceblue;
+}
+
+div.box {
+    width: 90%;
+    padding: 10px;
+    background-color: rgb(39, 39, 39);
+    border-radius: 10px;
+    margin: 0;
+    position: absolute;
+    top: 90px;
+    left: 50px;
+}
+
+h2{
+    color: #FAB005;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+label {
+    color: #FAB005;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+    margin: 5px;
+    border-radius: 5px;
+    width: 60%;
+    border: 2px solid #FAB005;
+    height: 30px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.2);
+    padding: 0 14px;
+}
+
+input:hover {
+    border: 2px solid #ff9d00;
+}
+
+input.price {
+    width: 20%;
+}
+
+input.contact {
+    width: 20%;
+}
+
+::placeholder {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+select {
+    margin: 5px;
+    border-radius: 5px;
+    width: 22.8%;
+    border: 2px solid #FAB005;
+    height: 35px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.2);
+    padding: 0 14px;
+}
+
+select:hover{
+    border: 2px solid #ff9d00;
+}
+
+textarea {
+    resize: none;
+    margin: 5px;
+    border-radius: 5px;
+    width: 60%;
+    border: 2px solid #FAB005;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.2);
+    padding: 0 14px;
+}
+
+textarea:hover{
+    border: 2px solid #ff9d00;
+}
+
+button {
+    background-color: #FAB005;
+    border: none;
+    border-radius: 5px;
+    color: #F2F7F2;
+    width: 45%;
+    height: 20%;
+    position:relative;
+    left: 20px;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.2);
+}
+
+button:hover {
+    background-color: #ff9d00;
+}
+

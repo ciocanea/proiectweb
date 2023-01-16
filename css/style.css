@@ -1,0 +1,217 @@
+body {
+    background-color: #333;
+    color:aliceblue;
+}
+
+div.register {
+    position: absolute;
+    top: 40px;
+    right: 240px;
+}
+
+div.login {
+    position: absolute;
+    top: 40px;
+    right: 157px;
+}
+
+div.listing {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+
+div.shoppingCart {
+    position: absolute;
+    top: 35px;
+    right: 350px;
+}
+
+div.box {
+    margin: 30px;
+    width: 330px;
+    padding: 10px;
+    background-color: rgb(39, 39, 39);
+    border-radius: 10px;
+}
+
+div.searchBox {
+    margin-bottom: 100px;
+    width: 90%;
+    padding: 10px;
+    background-color: rgb(39, 39, 39);
+    border-radius: 10px;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    position: relative;
+}
+  
+li {
+    float: left;
+}
+  
+li div {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+
+h2{
+    color: #FAB005;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+fieldset {
+    border-radius: 10px;
+    margin-left: 30px;
+    height: 270px;
+}
+
+label {
+    color: #FAB005;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+    margin: 5px;
+    border-radius: 5px;
+    width: 90%;
+    border: 2px solid #FAB005;
+    height: 30px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.2);
+    padding: 0 14px;
+}
+
+input:hover {
+    width: 90%;
+    border: 2px solid #ff9d00;
+}
+
+
+input:focus-visible {
+    border: 2px solid #ff9d00;
+}
+
+::placeholder {
+    font-size: 16px;
+}
+
+
+button {
+    background-color: #FAB005;
+    border: none;
+    border-radius: 5px;
+    color: #F2F7F2;
+    width: 45%;
+    height: 20%;
+    position:relative;
+    left: 20px;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.2);
+}
+
+button:hover {
+    background-color: #ff9d00;
+}
+
+button.filterButton {
+    background-color: #FAB005;
+    border: none;
+    border-radius: 5px;
+    color: #F2F7F2;
+    width: 10%;
+    height: 20%;
+    position:relative;
+    left: 40px;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.2);
+}
+
+button.filterButton:hover {
+    background-color: #ff9d00;
+}
+
+/* button.submit {
+    position: relative;
+    left: 50px;
+    
+}
+
+button.reset {
+    position: absolute;
+    right: 50px;
+} */
+
+a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(250, 197, 5);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff9d00;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FAB005;
+    margin: 0px;    
+}
+
+input.select {
+    margin: 0px;
+    width: auto;
+}
+
+label.select {
+    color: #FAB005;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+}
+
+.itemImg {
+    width: 150px;
+    height: 150px;
+}
+
+.shoppingButton {
+    bottom: 30px;
+    margin: 0%;
+}
+
+h3 {
+    color: #FAB005;
+    text-align: center;
+}
+
+summary {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FAB005;
+    margin: 0px;    
+}

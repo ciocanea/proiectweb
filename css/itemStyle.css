@@ -1,0 +1,16 @@
+.itemImg {
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.shoppingButton {
+    bottom: 30px;
+    margin: 0%;
+}
+
+h3 {
+    color: #FAB005;
+    text-align: center;
+}
